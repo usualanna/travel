@@ -1,21 +1,16 @@
 .lead {
     display: block;
-    width: 984px;
+    max-width: 984px;
     margin: 0 auto;
 }
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) and (max-device-width: 1280px) {
     .lead {
-        width: 928px;
+        max-width: 928px;
     }
 }
-@media screen and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-width: 768px){
     .lead {
-        width: 100vw;
-    }
-}
-@media screen and (max-device-width: 320px) {
-    .lead {
-        width: 100vw;
+        width: 100%;
     }
 }

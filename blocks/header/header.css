@@ -3,23 +3,18 @@
     height: 52px;
     display: flex;
     justify-content: space-between;
-    margin: 28px auto 0 auto;
+    margin: 0 auto;
+    padding-top: 28px;
 }
 
-@media screen and (max-device-width: 1024px) {
+
+@media screen and (min-width: 425px) and (max-device-width: 1024px) {
     .header {
-        max-width: 928px;
+        max-width: 92%;
     }
 }
-@media screen and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-width: 425px) {
     .header {
-        max-width: 720px;
-    }
-}
-@media screen and (max-device-width: 320px) {
-    .header {
-        max-width: 288px;
-        height: 42px;
-        margin: 16px auto 0 auto;
+        padding-top: 16px;
     }
 }
