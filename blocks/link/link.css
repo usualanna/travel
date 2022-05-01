@@ -1,4 +1,6 @@
 .link {
     color: #fff;
     margin: 0;
+    list-style-type: none;
+    text-decoration: none;
 }

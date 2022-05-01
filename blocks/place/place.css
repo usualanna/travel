@@ -1,3 +1,26 @@
 .place {
-    
+    margin: 80px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.place:nth-of-type(1) {
+    margin-top: 92px;
+}
+
+@media screen and (max-device-width: 768px) {
+    .place {
+        margin-top: 72px;
+    }
+    .place:nth-last-of-type(1) {
+        margin-top: 88px;
+    }
+}
+@media screen and (max-device-width: 320px) {
+    .place {
+        margin-top: 50px;
+    }
+    .place:nth-last-of-type(1) {
+        margin-top: 64px;
+    }
 }

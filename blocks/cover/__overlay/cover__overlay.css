@@ -1,0 +1,9 @@
+.cover__overlay {
+    width: 1184px;
+    height: 740px;
+    z-index: 1;
+    background-color: #2A2C2F4C;
+    display: block;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}

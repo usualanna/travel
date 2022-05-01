@@ -8,3 +8,9 @@
     font-size: 12px;
     line-height: 18px;;
 }
+
+@media screen and (max-device-width: 320px) {
+    .intro__list {
+        margin-top: 34px;
+    }
+}
