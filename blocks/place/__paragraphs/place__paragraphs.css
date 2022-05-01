@@ -2,3 +2,20 @@
     flex-direction: column;
     margin: 48px 0 0 40px;
 }
+
+@media screen and (max-device-width: 1024px) {
+    .place__website {
+        margin-left: 32px;
+    }
+}
+@media screen and (max-device-width: 768px) {
+    .place__website {
+        margin-left: 28px;
+    }
+}
+@media screen and (max-device-width: 320px) {
+    .place__paragraphs {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+}

@@ -11,3 +11,20 @@
 .place__paragraph:nth-of-type(2) {
     margin-top: 26px;
 }
+
+@media screen and (max-device-width: 1024px) {
+    .place__paragraph {
+        max-width: 456px;
+    }
+}
+@media screen and (max-device-width: 768px) {
+    .place__paragraph {
+        max-width: 352px;
+    }
+}
+@media screen and (max-device-width: 320px) {
+    .place__paragraph {
+    
+        max-width: 288px;
+    }
+}

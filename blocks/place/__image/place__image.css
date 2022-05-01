@@ -3,3 +3,22 @@
     height: 460px;
     margin-top: 48px;
 }
+
+@media screen and (max-device-width: 1024px) {
+    .place__image {
+        width: 440px;
+        height: 440px;
+    }
+}
+@media screen and (max-device-width: 768px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+}
+@media screen and (max-device-width: 320px) {
+    .place__image {
+        width: 320px;
+        height: 320px;
+    }
+}

@@ -5,3 +5,20 @@
     justify-content: flex-end;
     margin-left: 40px;
 }
+
+@media screen and (max-device-width: 1024px) {
+    .place__website {
+        margin-left: 32px;
+    }
+}
+@media screen and (max-device-width: 768px) {
+    .place__website {
+        margin-left: 28px;
+    }
+}
+@media screen and (max-device-width: 320px) {
+    .place__website {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+}

@@ -12,3 +12,21 @@
     grid-column: 1/2;
     margin: 429px auto 0 auto;
 }
+
+@media screen and (max-device-width: 1024px) {
+    .cover__subtitle {
+        margin-top: 379px;
+    }
+}
+@media screen and (max-device-width: 768px) {
+    .cover__subtitle {
+        margin-top: 299px;
+    }
+}
+@media screen and (max-device-width: 320px) {
+    .cover__subtitle {
+        margin-top: 119px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
