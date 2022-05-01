@@ -1,7 +1,7 @@
 .cover__background {
     background-image: url(../../../images/cover-trains.jpg);
     display: block;
-    width: 100%;
+    width: inherit;
     height: 740px;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,3 +11,9 @@
     grid-column: 1/2;
 }
 
+@media screen and (min-device-width: 320px) and (max-width: 1024px){
+    .cover__background {
+        background-size: cover;
+        height: auto;
+    }
+}
