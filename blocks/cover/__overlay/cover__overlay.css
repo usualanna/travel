@@ -4,6 +4,7 @@
     display: block;
     grid-row: 1/2;
     grid-column: 1/2;
+    max-width: 100%;
 }
 
 .cover__overlay:hover {

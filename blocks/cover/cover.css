@@ -3,8 +3,8 @@
     max-height: 740px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     padding-top: 92px;
 }
 
@@ -13,12 +13,12 @@
         padding-top: 90px;
     }
 }
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
     .cover {
         padding-top: 66px;
     }
 }
-@media screen and (min-device-width: 320px) and (max-width: 1024px){
+@media screen and (min-device-width: 320px) and (max-width: 1200px){
     .cover {
         max-width: 100%;
         height: auto;

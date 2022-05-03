@@ -9,7 +9,7 @@
     padding-top: 92px;
 }
 
-@media screen and (min-width: 425px) and (max-device-width: 768px) {
+@media screen and (min-width: 425px) and (max-device-width: 767px) {
     .place {
         flex-direction: column;
         padding-top: 72px;
@@ -18,9 +18,8 @@
         padding-top: 88px;
     }
 }
-@media screen and (min-device-width: 320px) and (max-width: 425px){
-    .place {
-        
+@media screen and (min-device-width: 320px) and (max-width: 424px){
+    .place {       
         padding-top: 50px;
     }
     .place:nth-last-of-type(1) {

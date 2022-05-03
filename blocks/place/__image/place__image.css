@@ -10,8 +10,8 @@
         max-width: 440px;
     }
 }
-@media screen and (min-device-width: 320px) and (max-width: 768px){
+@media screen and (min-device-width: 320px) and (max-width: 767px){
     .place__image {
-        max-width: 92%;
+        max-width: 100%;
     }
 }

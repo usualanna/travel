@@ -11,13 +11,13 @@
         max-width: 428px;
     }
 }
-@media screen and (min-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) and (max-device-width: 1023px) {
     .place__paragraphs {
         max-width: calc(100% - 28px - 440px);
         padding-left: 28px;
     }
 }
-@media screen and (min-device-width: 320px) and (max-width: 768px){
+@media screen and (min-device-width: 320px) and (max-width: 767px){
     .place__paragraphs {
         max-width: 92%;
         padding-top: 32px;

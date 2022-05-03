@@ -1,6 +1,5 @@
 .cover__subtitle {
     color: #FFFFFF;
-    width: 360px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -12,6 +11,7 @@
     grid-column: 1/2;
     margin: 0 auto;
     padding-top: 429px;
+    max-width: 50%;
 }
 
 @media screen and (min-width: 1024px) and (max-device-width: 1280px) {
@@ -19,13 +19,22 @@
         padding-top: 379px;
     }
 }
-@media screen and (min-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) and (max-device-width: 1023px) {
     .cover__subtitle {
         padding-top: 299px;
     }
 }
-@media screen and (min-device-width: 320px) and (max-width: 768px) {
+@media screen and (min-device-width: 425px) and (max-width: 767px){
     .cover__subtitle {
+        max-width: 65%;
+        padding-top: 119px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media screen and (min-device-width: 320px) and (max-width: 424px) {
+    .cover__subtitle {
+        max-width: 70%;
         padding-top: 119px;
         font-size: 14px;
         line-height: 16px;

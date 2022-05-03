@@ -1,7 +1,8 @@
 .photo-grid {
     width: 1184px;
     display: grid;
-    margin: 92px auto 0 auto;
+    margin: 0 auto;
+    padding-top: 92px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
@@ -15,14 +16,14 @@
         gap: 14px;
     }
 }
-@media screen and (min-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) and (max-device-width: 1023px) {
     .photo-grid {
         max-width: 92%;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
     }
 }
-@media screen and (min-device-width: 320px) and (max-width: 768px){
+@media screen and (min-device-width: 320px) and (max-width: 767px){
     .photo-grid {
         max-width: 92%;
         grid-template-rows: repeat(12, 1fr);
