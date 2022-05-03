@@ -8,7 +8,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (min-device-width: 320px) and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 767px){
     .footer__copyright {
         text-align: left;
         max-width: 186px;
