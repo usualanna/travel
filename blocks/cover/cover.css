@@ -1,6 +1,5 @@
 .cover {
     max-width: 1184px;
-    max-height: 740px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -8,19 +7,22 @@
     padding-top: 92px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+.cover:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1279px){
+    .cover {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 1023px) {
     .cover {
         padding-top: 90px;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .cover {
         padding-top: 66px;
-    }
-}
-@media screen and (min-width: 320px) and (max-width: 1200px){
-    .cover {
-        max-width: 100%;
-        height: auto;
     }
 }

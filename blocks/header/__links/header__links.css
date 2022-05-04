@@ -1,4 +1,10 @@
 .header__links {
     display: flex;
-    align-items: center;
+    align-items: end;
+}
+
+@media screen and (max-width: 767px) {
+    .header__links {
+        padding-bottom: 5px;
+    }
 }
