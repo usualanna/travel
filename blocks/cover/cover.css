@@ -1,28 +1,31 @@
 .cover {
-    max-width: 1184px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    padding-top: 92px;
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 auto;
+  padding-top: 92px;
 }
 
 .cover:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 1279px){
-    .cover {
-        max-width: 100%;
-    }
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: 100%;
+    min-height: calc(100vw * 640 / 1023);
+  }
 }
+
 @media screen and (max-width: 1023px) {
-    .cover {
-        padding-top: 90px;
-    }
+  .cover {
+    padding-top: 90px;
+    min-height: calc(100vw * 480 / 767);
+  }
 }
+
 @media screen and (max-width: 767px) {
-    .cover {
-        padding-top: 66px;
-    }
+  .cover {
+    padding-top: 66px;
+    min-height: calc(100vw * 200 / 320);
+  }
 }

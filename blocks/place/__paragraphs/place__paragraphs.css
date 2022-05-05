@@ -1,26 +1,11 @@
 .place__paragraphs {
-    flex-direction: column;
-    margin: 0;
-    padding-left: 40px;
-    max-width: 484px;
+  flex-direction: column;
+  margin: 0;
 }
 
-@media screen and (max-width: 1279px) {
-    .place__paragraphs {
-        max-width: 456px;
-        padding-left: 32px;
-    }
-}
-@media screen and (max-width: 1023px) {
-    .place__paragraphs {
-        max-width: 352px;
-        padding-left: 28px;
-    }
-}
 @media screen and (max-width: 767px) {
-    .place__paragraphs {
-        max-width: 720px;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
+  .place__paragraphs {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

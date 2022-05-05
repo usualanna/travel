@@ -1,24 +1,21 @@
 .place__paragraph {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height:29px;
-    color: #FFFFFF;
-    margin: 0;
-    max-width: 100%;
-    padding-top: 26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 100%;
+  padding-top: 26px;
 }
 
 .place__paragraph:nth-of-type(1) {
-    padding-top: 48px;
+  padding-top: 0;
 }
 
 @media screen and (max-width: 1023px) {
-    .place__paragraph {
-        font-size: 16px;
-        line-height: 26px; 
-    }
-    .place__paragraph:nth-of-type(1) {
-        padding-top: 32px;
-    }
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 25px;
+  }
 }
