@@ -19,13 +19,11 @@
 @media screen and (max-width: 1023px) {
   .cover {
     padding-top: 90px;
-    min-height: calc(100vw * 480 / 767);
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
     padding-top: 66px;
-    min-height: calc(100vw * 200 / 320);
   }
 }
