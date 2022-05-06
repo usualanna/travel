@@ -1,15 +1,5 @@
 .lead__image {
-  display: block;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  margin: 0 auto;
-  padding-top: 64px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media screen and (max-width: 767px) {
-  .lead__image {
-    padding-top: 40px;
-  }
 }
